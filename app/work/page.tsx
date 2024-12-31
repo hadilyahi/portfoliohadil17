@@ -16,8 +16,29 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 import { Swiper as SwiperClass } from "swiper"; 
 const projects = [
-  {
+   {
     num: "01",
+    category: "Full stack",
+    title: "Full Authentication and Authorization System",
+    description:
+      "Developed a comprehensive authentication and authorization system utilizing JSON Web Tokens (JWT). The system ensures secure user management with features such as:User Registration and Login with hashed passwords for enhanced security.Role-Based Access Control (RBAC) to manage permissions efficiently.Password Recovery and Reset using secure email workflows.Token Refresh for seamless and secure session management.",
+    stack: [
+      { name: "Express.js" },
+      { name: "MongoDB " },
+      { name: "Next.js " },
+      { name: "Tailwind CSS" },
+      { name: "bcrypt.js" },
+      {
+        name: "Nodemailer",
+      },
+      { name: "JWT" },
+    ],
+    image: "/project5.png",
+    live: "https://rami-school.vercel.app/en",
+    github: "https://github.com/chrhi/e-school-frontend",
+  },
+  {
+    num: "02",
     category: "frontend",
     title: "Food Recipes",
     description:
@@ -28,7 +49,7 @@ const projects = [
     github: "https://github.com/hadilyahi/Food-Recipes-",
   },
   {
-    num: "02",
+    num: "03",
     category: "frontend",
     title: "Makeup Store",
     description:
@@ -39,7 +60,7 @@ const projects = [
     github: "https://github.com/hadilyahi/MakeupStore-",
   },
   {
-    num: "03",
+    num: "04",
     category: "frontend",
     title: "Todo App",
     description: "This is a Todo App project for managing daily tasks.",
@@ -49,7 +70,7 @@ const projects = [
     github: "https://github.com/hadilyahi/TodoApp",
   },
   {
-    num: "04",
+    num: "05",
     category: "frontend",
     title: "Login System",
     description: "this is page Login use Redux.",
@@ -91,7 +112,7 @@ const handleSlideChange = (swiper: SwiperClass) => {
               {/* project description */}
               <p className="text-white/60">{project.description}</p>
               {/* stack */}
-              <ul className="flex gap-4">
+              <ul className="flex flex-wrap gap-4">
                 {project.stack.map((item, index) => {
                   return (
                     <li key={index} className="text-xl text-accent">

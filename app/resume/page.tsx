@@ -37,7 +37,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "hadil",
+      fieldValue: "hadiltech17@gmail.com",
     },
     {
       fieldName: "Instagram",
@@ -65,14 +65,24 @@ const experience = {
     "Passionate Front-End Developer with experience in building responsive, user-friendly web applications using React.js, Next.js, TailwindCSS, and TypeScript. Proficient in integrating APIs with Axios, managing state with Redux, and implementing i18next for multi-language support.",
   items: [
     {
-      company: "Nhannik",
-      Position: "Intern Front end Developer",
-      duration: "01/05/2024 - 01/06/2024",
+     company: "Freelance",
+      Position: "Web developer",
+      duration: "1/10/2024 - present",
+    },
+    {
+      company: "Algerie Telecom",
+      Position: "Intership ",
+      duration: "23/12/2024 - 30/12/2024",
     },
     {
       company: "Nhannik",
       Position: "Front end Developer",
       duration: "15/06/2024 - 15/08/2024",
+    },
+      {
+      company: "Nhannik",
+      Position: "Intern Front end Developer",
+      duration: "01/05/2024 - 01/06/2024",
     },
   ],
 };
@@ -87,6 +97,11 @@ const education = {
       institution: "Zaine Achour University Djelfa",
       degree: "Computer science student",
       duration: "2023 - present",
+    },
+     {
+      institution: "Udemy ",
+      degree: "Figma Course",
+      duration: "20/12/2024 - 25/12/2024",
     },
     {
       institution: "Youtube ",

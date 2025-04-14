@@ -16,8 +16,44 @@ import Image from "next/image";
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 import { Swiper as SwiperClass } from "swiper"; 
 const projects = [
-   {
+  {
     num: "01",
+    category: "Full Stack",
+    title: "Your Food – Smart Recipe Platform",
+    description:
+      "Your Food is an innovative web platform that offers a rich and interactive recipe experience. It features categorized global cuisine, AI-generated recipe suggestions, and a smart nutritional calculator. Developed from scratch, including backend, frontend, and UI/UX design, the project leverages modern technologies to deliver a seamless and enjoyable user journey.",
+    stack: [
+      { name: "Node.js" },
+      { name: "Firebase" },
+      { name: "React.js" },
+      { name: "Next.js" },
+      { name: "Tailwind CSS" },
+      { name: "GEMINI API" },
+      { name: "TheMealDB API" },
+    ],
+    image: "/your food.jpeg",
+    live: "https://your-food-kappa.vercel.app/", 
+    github: "https://github.com/hadilyahi/YourFood-Frontend", 
+  },
+  {
+    num: "02",
+    category: "Frontend",
+    title: "Perfume E-commerce  & Frontend",
+    description:
+      "This project marks my first venture into UI/UX design, where I crafted a full e-commerce experience for a perfume store. Starting from in-depth user research to wireframing and high-fidelity designs, the goal was to create a smooth, attractive, and efficient user journey. The store features fast product navigation, clear presentation, advanced filtering, responsive design, and an easy checkout process. I also contributed to the frontend development using modern tools.",
+    stack: [
+      { name: "React.js" },
+      { name: "Next.js" },
+      { name: "Tailwind CSS" },
+      { name: "Figma (UI/UX Design)" }
+    ],
+    image: "/Parfume.jpeg", 
+    live: "",
+    github: "https://github.com/username/perfume-shop", 
+  }
+,  
+   {
+    num: "03",
     category: "Full stack",
     title: "Full Authentication and Authorization System",
     description:
@@ -38,7 +74,7 @@ const projects = [
     github: "https://github.com/chrhi/e-school-frontend",
   },
   {
-    num: "02",
+    num: "04",
     category: "frontend",
     title: "Food Recipes",
     description:
@@ -48,19 +84,9 @@ const projects = [
     live: "https://food-recipes-gamma.vercel.app/",
     github: "https://github.com/hadilyahi/Food-Recipes-",
   },
+  
   {
-    num: "03",
-    category: "frontend",
-    title: "Makeup Store",
-    description:
-      "A stylish and modern website dedicated to makeup enthusiasts, offering a variety of beauty tutorials, product reviews, tips, and trends. The site features makeup looks for different occasions, step-by-step guides, and expert recommendations to help users enhance their beauty routines.",
-    stack: [{ name: "Html5" }, { name: "Css3" }],
-    image: "/proj2.png",
-    live: "https://makeupstoresite.vercel.app/",
-    github: "https://github.com/hadilyahi/MakeupStore-",
-  },
-  {
-    num: "04",
+    num: "05",
     category: "frontend",
     title: "Todo App",
     description: "This is a Todo App project for managing daily tasks.",
@@ -70,7 +96,7 @@ const projects = [
     github: "https://github.com/hadilyahi/TodoApp",
   },
   {
-    num: "05",
+    num: "06",
     category: "frontend",
     title: "Login System",
     description: "this is page Login use Redux.",

@@ -8,6 +8,7 @@ import {
   FaGithub,
   FaGit,
   FaReact,
+  FaNodeJs,
 } from "react-icons/fa";
 
 import { MdTranslate } from "react-icons/md"; // i18next
@@ -109,6 +110,11 @@ const education = {
       duration: "03/2024 - 04/2024",
     },
     {
+      institution: "Cours",
+      degree: "back end Developer",
+      duration: "03/2024 - 04/2024",
+    },
+    {
       institution: "Coursera",
       degree: "SQl Cours",
       duration: "11/2024",
@@ -161,6 +167,10 @@ const skills = {
     {
       icon: <FaFigma />,
       name: "Figma",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "Node Js",
     },
     {
       icon: <FaGithub />,
